@@ -1,26 +1,26 @@
-Ejercicio 1
-Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
+#Ejercicio 1
+#Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
 
-Python
+#Python
 
 # Solución Ejercicio 1
 
 asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 print(asignaturas)
-Ejercicio 2
-Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla el mensaje Yo estudio <asignatura>, donde <asignatura> es cada una de las asignaturas de la lista.
+#Ejercicio 2
+#Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla el mensaje Yo estudio <asignatura>, donde <asignatura> es cada una de las asignaturas de la lista.
 
-Python
+#Python
 
 # Solución Ejercicio 2
 
 asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 for asignatura in asignaturas:
     print(f"Yo estudio {asignatura}")
-Ejercicio 3
-Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en cada asignatura, y después las muestre por pantalla con el mensaje En <asignatura> has sacado <nota> donde <asignatura> es cada una des las asignaturas de la lista y <nota> cada una de las correspondientes notas introducidas por el usuario.
+#Ejercicio 3
+#Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en cada asignatura, y después las muestre por pantalla con el mensaje En <asignatura> has sacado <nota> donde <asignatura> es cada una des las asignaturas de la lista y <nota> cada una de las correspondientes notas introducidas por el usuario.
 
-Python
+#Python
 
 # Solución Ejercicio 3
 
@@ -42,10 +42,10 @@ for asignatura in asignaturas:
 print("\n--- Tus calificaciones ---")
 for i in range(len(asignaturas)):
     print(f"En {asignaturas[i]} has sacado {notas[i]}")
-Ejercicio 4
-Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva, los almacene en una lista y los muestre por pantalla ordenados de menor a mayor.
+#Ejercicio 4
+#Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva, los almacene en una lista y los muestre por pantalla ordenados de menor a mayor.
 
-Python
+#Python
 
 # Solución Ejercicio 4
 
@@ -65,10 +65,10 @@ while True:
 
 numeros_ganadores.sort() # Ordenar la lista de menor a mayor
 print("Los números ganadores de la lotería primitiva ordenados son:", numeros_ganadores)
-Ejercicio 5
-Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.
+#Ejercicio 5
+#Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.
 
-Python
+#Python
 
 # Solución Ejercicio 5
 
